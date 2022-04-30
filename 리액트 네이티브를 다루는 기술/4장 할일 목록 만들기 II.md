@@ -61,7 +61,7 @@ $ npm install react-native-vector-icons
 
 ### 안드로이드에 react-native-vector-icons 적용하기
 
-**android/app/build.gradle **맨 아래에 추가
+**android/app/build.gradle** 맨 아래에 추가
 
 ```
 (...)
@@ -113,8 +113,6 @@ const styles = StyleSheet.create({
 
 export default TodoItem;
 ```
-
-
 
 
 
@@ -213,7 +211,7 @@ $ npm install @react-native-async-storage/async-storage
 #### 1. 불러오기
 
 ```js
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 ```
 
 #### 2. 저장하기
